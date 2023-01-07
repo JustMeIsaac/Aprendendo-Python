@@ -4,8 +4,6 @@ Created on Fri Jan  6 18:49:27 2023
 
 @author: Ronnã Isaac
 """
-
-
 '''
 Exercicio 4: Baixe a copia do arquivo www.py4e.com/code3/romeo.txt.
 Escreva um programa para abrir o arquivo chamado romeo.txt e leia-o linha por
@@ -27,14 +25,6 @@ But soft what light through yonder window breaks
 It is the east and Juliet is the sun
 Arise fair sun and kill the envious moon
 Who is already sick and pale with grief
-
-33 palavras
-26 diferentes
-
-But soft what light through yonder window breaks
-It is the east and Juliet sun
-Arise fair kill envious moon
-Who already sick pale with grief
 '''
 
 import os
@@ -81,6 +71,4 @@ while True:
         print('O arquivo', fname, 'nao pode ser encontrado')
 
 
-
-        
         
