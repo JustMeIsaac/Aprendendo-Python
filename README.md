@@ -1,4 +1,3 @@
-# Aprendendo-Python
+# Learn-Python
 
-Esse é o meu repositorio contendo alguns dos exercicios que fiz com phyton enquanto estou aprendendo.
-Esse contúdo é e sempre será gratuito :D
+Hello World. This is my collection of small automation projects using the Python language. This content is useful for collecting templates for general application in other systems.
