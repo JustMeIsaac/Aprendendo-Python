@@ -35,10 +35,10 @@ for linha in fhand: #para cada linha no texto
         continue
     else:
         contador+= 1
-        if palavras[1] not in enviador:
-            enviador[palavras[1]]=1
+        if palavras[1] not in enviador: #se o item 2 de cada linha da lista de palavras (ou seja, o email) não estiver no dicionário
+            enviador[palavras[1]]=1     #ele cria uma nova chave usando o nome 'do item 2 de cada linha da lista de palavras' com valor inicial de 1
         else:
-            enviador[palavras[1]]+=1
+            enviador[palavras[1]]+=1  #senão, ele apenas soma 1 ao já exixtente (isso será feito para cada uma das chaves)
 
      
 print('\nO numero de emails recebidos foi:', contador)
